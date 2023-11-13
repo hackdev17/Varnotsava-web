@@ -1,0 +1,12 @@
+body{
+	background-image : url('.images/crop.jpg');
+	color : white;
+}
+
+button{
+	color : white;
+	background : none;
+	border-color : red;
+	text-align : center;
+	border-radius : 12px;
+}
