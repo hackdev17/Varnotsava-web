@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varnothsava</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <style>
+        .main-img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .main-img img {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            animation: swipe 10s infinite;
+        }
+        .main-img img:nth-child(2) {
+            animation-delay: 10s;
+        }
+        .main-img img:nth-child(3) {
+            animation-delay: 10s;
+        }
+
+
+        @keyframes swipe {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-100%);
+            }
+            50% {
+                transform: translateX(-200%);
+            }
+            75% {
+                transform: translateX(-300%);
+            }
+            100% {
+                transform: translateX(-400%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="smvitm-logo.png" alt="SMVITM Logo">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>
+      <div class="main-img">
+        <div style="text-align: center;">
+        <img src="image1.jpg" alt="SMVITM College campus during Varnothsava event">
+        <img src="image2.jpg" alt="SMVITM College campus during Varnothsava event">
+        <img src="image3.jpg" alt="SMVITM College campus during Varnothsava event">
+      </div>
+      </div>
+        <h1>Varnothsava</h1>
+        <p>Highlights of our event:</p>
+        <!-- Add more content here -->
+
+    <footer>
+        <p>Copyright (C) 2023 Code SkiTech All rights reserved </p>
+    </footer>
+</body>
+</html>

@@ -1,12 +1,61 @@
-body{
-	background-image : url('.images/crop.jpg');
-	color : white;
+button{
+	border-color		: gray;
+	background		: black;
+	opacity			: 50%;
+	text-align		: center;
+	border-radius		: 18px;
 }
 
-button{
-	color : white;
-	background : none;
-	border-color : red;
-	text-align : center;
-	border-radius : 12px;
+/* links */
+a:link {
+	color			: white;
+	background-color	: transparent;
+	text-decoration		: none;
+}
+
+a:visited {
+	color			: white;
+	background-color	: transparent;
+	text-decoration		: none;
+}
+
+a:active {
+	color			: white;
+	background-color	: transparent;
+	text-decoration		: underline;
+}
+
+.background_style{
+	position		: fixed;
+	top			: 0;
+	left			: 0;
+	width			: 100%;
+	height			: 100%;
+	animation		: slideshow 5s ease-in-out infinite;
+	background-repeat	: no-repeat;
+	background-attachment	: fixed;
+	background-position	: center;
+	background-size		: cover;
+}
+
+@keyframes slideshow{
+	0%{
+		background-image	: url(.images/back1-4k.png);
+	}
+	50%{
+		background-image	: url(.images/background.jpg); 
+	}
+	100%{
+		background-image	: url(.images/back2-4k.png);
+	}
+}
+
+@font-face {
+  font-family: 'Samarkan';
+  src: url('.fonts/Samarkan.ttf') format('truetype');
+}
+
+h1{
+	font-size		: 2vw;
+	font-family		: 'Samarkan', sans-serif;
 }

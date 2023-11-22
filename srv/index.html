@@ -2,17 +2,22 @@
 <html>
 	<head>
 		<link rel="stylesheet" href=".css">
+		<script src=".js"></script>
 		<title> Welcome to Varnotsava </title>
 	</head>
-	<body>
-		<center class="nice">
+	<body text="white">
+		<center class="background_style">
 			<img src=".images/vanotsava-logo.png">
 			<h1> conducted at </h1>
-			<img src=".images/smvitm-logo-transperent.png" height="200">
+			<img src=".images/smvitm-logo-transperent.png" height="250px">
 			<br/> <br/> <br/> <br/> <br/>
-			<button> Register </button>
-			<button> Login </button>
-			<button> Take Toor </button>
+			<button id="Register"> <a href="register.html"> <h1> Register </h1></a> </button>
+			<button id="Login"> <a href="login.html"> <h1> Login </h1></a> </button>
+			<button id="Toor"> <a href="toor.html"> <h1> Take Toor </h1></a> </button>
+			<?php
+				shell_exec("/usr/bin/touch $guest_name.db");
+				shell_exec("/usr/bin/printf \"Name,\\\"$guest_name\\\"\" > $guest_name.db")
+			?>
 		</center>
 	</body>
 </html>
