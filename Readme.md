@@ -7,20 +7,42 @@ Walk through the files and directories of this project <br><br>
 ```
 .
 ├── ./Base
-│   ├── ./Base/smvitm-logo.png
-│   ├── ./Base/smvitm-logo-transperent.svg
-│   ├── ./Base/StarSports_Logo_detail.jpg
-│   └── ./Base/vanotsava-logo.xcf
+│   ├── ./Base/about.html
+│   ├── ./Base/events.html
+│   ├── ./Base/home.html
+│   ├── ./Base/image1.jpg
+│   ├── ./Base/image2.jpg
+│   ├── ./Base/image3.jpg
+│   ├── ./Base/smvitm-logo.png
+│   ├── ./Base/smvitm-logo-transperent.svg
+│   ├── ./Base/StarSports_Logo_detail.jpg
+│   └── ./Base/vanotsava-logo.xcf
 ├── ./Readme.md
 └── ./srv
     ├── ./srv/.css
     ├── ./srv/.fonts
-    │   └── ./srv/.fonts/Samarkan.ttf
+    │   └── ./srv/.fonts/Samarkan.ttf
     ├── ./srv/.images
-    │   ├── ./srv/.images/crop.jpg
-    │   ├── ./srv/.images/smvitm-logo-transperent.png
-    │   └── ./srv/.images/vanotsava-logo.png
-    └── ./srv/index.html
+    │   ├── ./srv/.images/back1-4k.png
+    │   ├── ./srv/.images/back1.jpg
+    │   ├── ./srv/.images/back2-4k.png
+    │   ├── ./srv/.images/back2.jpg
+    │   ├── ./srv/.images/background-4k.png
+    │   ├── ./srv/.images/background.jpg
+    │   ├── ./srv/.images/smvitm-logo-transperent-4k.png
+    │   ├── ./srv/.images/smvitm-logo-transperent.png
+    │   ├── ./srv/.images/vanotsava-logo-4k.png
+    │   └── ./srv/.images/vanotsava-logo.png
+    ├── ./srv/index.html
+    ├── ./srv/.js
+    ├── ./srv/login.html
+    ├── ./srv/.logins
+    ├── ./srv/.php
+    │   ├── ./srv/.php/db.php
+    │   ├── ./srv/.php/login.php
+    │   └── ./srv/.php/register.php
+    ├── ./srv/.register
+    └── ./srv/register.html
 ```
 
 ### srv
